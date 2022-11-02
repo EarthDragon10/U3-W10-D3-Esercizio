@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div id="todolist">
+            <input type="text" name="" id="">
+            <button>Aggiungi</button>
+            <div id="elem-list">
+
+                <div id="list">
+                    <ul>
+                        <li [ngClass]="txt_italic">Fare la spesa</li>
+                        <li [ngClass]="txt_italic">Restituire la tessera del porto</li>
+                        <li [ngClass]="txt_italic">Salutare una mia collega</li>
+                        <li [ngClass]="txt_italic">Guardare Milan - Salisburgo senza bestemmiare</li>
+                    </ul>
+                </div>
+
+                <div id="actions-list">
+                    <button (click)="changeItalic()">Italic</button>
+                    <button>Barred</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -16,6 +16,7 @@ import { Page1ComponentComponent } from './page1-component/page1-component.compo
 import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { ContactsComponent } from './page2/contacts/contacts.component';
+import { TodolistComponent } from './page3/todolist/todolist.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,7 @@ const routes: Routes = [
     Page2Component,
     Page3Component,
     ContactsComponent,
+    TodolistComponent,
   ],
   imports: [BrowserModule, RouterModule.forRoot(routes)],
   providers: [],

@@ -1,0 +1,23 @@
+#todolist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 10rem auto;
+}
+
+#elem-list {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.txt_italic {
+  font-style: italic;
+}
+
+.txt-overline {
+  text-decoration: line-through;
+}
