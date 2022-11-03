@@ -7,10 +7,14 @@
 
                 <div id="list">
                     <ul>
-                        <li [ngClass]="txt_italic">Fare la spesa</li>
+                        <li *ngFor="let item of todos">
+                            <span>{{item.id}} </span>
+                            <span [ngClass]="txt_italic">{{item.text}}</span>
+                        </li>
+                        <!-- <li [ngClass]="txt_italic">Fare la spesa</li>
                         <li [ngClass]="txt_italic">Restituire la tessera del porto</li>
                         <li [ngClass]="txt_italic">Salutare una mia collega</li>
-                        <li [ngClass]="txt_italic">Guardare Milan - Salisburgo senza bestemmiare</li>
+                        <li [ngClass]="txt_italic">Guardare Milan - Salisburgo senza bestemmiare</li> -->
                     </ul>
                 </div>
 
